@@ -1,0 +1,42 @@
+Creating a table called school- 
+
+create table school
+(
+  schoolname char(20) not null,
+  schooltype varchar(20) not null,
+  schoollocation varchar(20)
+  );
+
+Inserting into School values- 
+
+
+Insert into school (schoolname, schooltype, schoollocation)
+values ('abc','englishmedium', 'jammu')
+values('def', hindimedium', 'delhi');
+
+
+CREATE TABLE recipes (
+  recipe_id INT NOT NULL,
+  recipe_name VARCHAR(30) NOT NULL,
+  PRIMARY KEY (recipe_id),
+  UNIQUE (recipe_name)
+);
+
+
+INSERT INTO recipes 
+    (recipe_id, recipe_name) 
+VALUES 
+    (1,"Tacos"),
+    (2,"Tomato Soup"),
+    (3,"Grilled Cheese");
+
+
+
+Select query - 
+
+SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES
+
+
+Drop table query -
+
+Drop table school;
