@@ -1,0 +1,11 @@
+CREATE TABLE EMPLOYEEWAGE(
+employeeId int NOTNULL,
+name varchar(max),
+dateOfBirth datetime,
+wage int NOTNULL
+);
+
+INSERT INTO EMPLOYEEWAGE VALUES(1, harry, 03-09-1991, 60)
+
+SELECT * FROM EMPLOYEEWAGE;
+
