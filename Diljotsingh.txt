@@ -1,0 +1,13 @@
+Create Database mydata
+
+create table employeedept (
+employeeid int not null,
+name varchar(30) not null,
+department varchar(50),
+wage int,
+)
+
+insert into table_employeedept;
+values (1, Andy, accouting, 65)
+
+Select * from employeedept;
